@@ -39,7 +39,7 @@
       <version>1.0.58</version>
       <scope>provided</scope>
     </dependency>
-    <!-- Dependencies for tests -->
+    <!-- Dependencies for tests  -->
     <dependency>
       <groupId>org.junit.jupiter</groupId>
       <artifactId>junit-jupiter-engine</artifactId>
@@ -91,7 +91,7 @@
           <serverName>sampleAppServer</serverName>
         </configuration>
       </plugin>
-      <!-- Plugin to run functional tests -->
+      <!-- Plugin to run functional tests  -->
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-failsafe-plugin</artifactId>
