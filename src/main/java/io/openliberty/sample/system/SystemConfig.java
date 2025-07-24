@@ -24,7 +24,7 @@ public class SystemConfig {
   @ConfigProperty(name = "io_openliberty_sample_system_inMaintenance")
   Provider<Boolean> inMaintenance;
 
-
+//test pr
   public boolean isInMaintenance() {
     return inMaintenance.get();
   }
